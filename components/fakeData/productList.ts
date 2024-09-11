@@ -2,276 +2,328 @@ export const productList = [
   {
     id: '1',
     urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTA-M100AV/',
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTH-M450MK/',
     productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5548.jpg',
-    productSlug: 'XT-XTA-M100AV',
-    productName: 'Alfombrilla para mouse | Edición Avengers, XTA-M100AV',
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5550.jpg',
+    slug: 'XT-XTH-M450MK',
+    name: 'Audífonos inalámbricos con micrófono | Edición Mickey Mouse, HTH-M450MK',
     price: {
-      amount: 50,
+      amount: 230,
       currency: 'Bs'
     },
-    category: 'Accesorios'
+    category: 'Audio',
+    description:
+      'Disfruta de tu música con estilo y comodidad con los audífonos inalámbricos edición especial Mickey Mouse. Con un diseño único, sonido nítido y batería de larga duración, estos audífonos son ideales para el uso diario.',
+    features: [
+      'Conectividad Bluetooth 5.0',
+      'Micrófono incorporado para llamadas claras',
+      'Hasta 12 horas de reproducción continua',
+      'Edición especial Mickey Mouse'
+    ]
   },
   {
     id: '2',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTS-130/',
+    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTS-200/',
     productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3036.png',
-    productSlug: 'XT-XTS-130',
-    productName: 'PARLANTE ESTEREO MULTIMEDIA DE 2.0 CANALES//// 20u x caja',
-    price: {
-      amount: 120,
-      currency: 'Bs'
-    },
-    category: 'Audio'
-  },
-  {
-    id: '3',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/TL-UC400/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5946.jpg',
-    productSlug: 'TL-UC400',
-    productName: 'ADAPTADOR USB TIPO C A USB 3.0///200U X CAJA',
-    price: {
-      amount: 70,
-      currency: 'Bs'
-    },
-    category: 'Accesorios'
-  },
-  {
-    id: '4',
-    urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTM-D340MK/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5542.jpg',
-    productSlug: 'XT-XTM-D340MK',
-    productName: 'Mouse inalámbrico | Edición Mickey Mouse, XTM-D340MK',
-    price: {
-      amount: 150,
-      currency: 'Bs'
-    },
-    category: 'Periféricos'
-  },
-  {
-    id: '5',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTK-510S/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3236.jpg',
-    productSlug: 'XT-XTK-510S',
-    productName: 'TECLADO MULTIMEDIA PARA VIDEO JUEGOS',
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3039.jpg',
+    slug: 'XT-XTS-200',
+    name: 'Parlante Bluetooth portátil | XT-XTS-200',
     price: {
       amount: 180,
       currency: 'Bs'
     },
-    category: 'Periféricos'
+    category: 'Audio',
+    description:
+      'Lleva tu música a todas partes con el parlante Bluetooth portátil XT-XTS-200. Con un diseño compacto y resistente, y una excelente calidad de sonido, es perfecto para disfrutar de la música al aire libre o en casa.',
+    features: [
+      'Sonido estéreo de alta fidelidad',
+      'Conectividad Bluetooth 4.2',
+      'Hasta 8 horas de duración de la batería',
+      'Diseño resistente al agua (IPX5)'
+    ]
   },
   {
-    id: '6',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTM-510/',
+    id: '3',
+    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTM-R300/',
     productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3365.jpg',
-    productSlug: 'XT-XTM-510',
-    productName: 'MOUSE ÓPTICO DE 6 BOTONES PARA VIDEO JUEGOS /// 40u X caja',
-    price: {
-      amount: 90,
-      currency: 'Bs'
-    },
-    category: 'Periféricos'
-  },
-  {
-    id: '7',
-    urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTM-M520SM/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5549.jpg',
-    productSlug: 'XT-XTM-M520SM',
-    productName:
-      'Mouse óptico de 7 botones para videojuegos | Edición Spider-Man Miles Morales, XTM-M520SM',
-    price: {
-      amount: 160,
-      currency: 'Bs'
-    },
-    category: 'Periféricos'
-  },
-  {
-    id: '8',
-    urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTH-M541SM/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5550.jpg',
-    productSlug: 'XT-XTH-M541SM',
-    productName:
-      'Audifonos cableados con micrófono | Edición Spider-Man Miles Morales///20u x caja',
-    price: {
-      amount: 110,
-      currency: 'Bs'
-    },
-    category: 'Audio'
-  },
-  {
-    id: '9',
-    urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTH-D660MK/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5541.jpg',
-    productSlug: 'XT-XTH-D660MK',
-    productName:
-      'Audifonos inalámbricos con micrófono | Edición Mickey Mouse, HTH-D660MK //20U X CAJA',
-    price: {
-      amount: 200,
-      currency: 'Bs'
-    },
-    category: 'Audio'
-  },
-  {
-    id: '10',
-    urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTA-D100MK/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5543.jpg',
-    productSlug: 'XT-XTA-D100MK',
-    productName: 'Alfombrilla para mouse | Edición Mickey Mouse, XTA-D100MK',
-    price: {
-      amount: 60,
-      currency: 'Bs'
-    },
-    category: 'Accesorios'
-  },
-  {
-    id: '11',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/KX-KMW-750/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3363.jpg',
-    productSlug: 'KX-KMW-750',
-    productName: 'MOUSE ERGONÓMICO SEMI VERTICAL INALÁMBRICO///// 40u X caja',
-    price: {
-      amount: 130,
-      currency: 'Bs'
-    },
-    category: 'Periféricos'
-  },
-  {
-    id: '12',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTH-560/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5087.jpg',
-    productSlug: 'XT-XTH-560',
-    productName: 'Audífonos estéreo para videojuegos////20 u x caja',
-    price: {
-      amount: 100,
-      currency: 'Bs'
-    },
-    category: 'Audio'
-  },
-  {
-    id: '13',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTC-347/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/4333.jpg',
-    productSlug: 'XT-XTC-347',
-    productName: 'Adaptador con conector HDMI macho a HDMI hembra',
-    price: {
-      amount: 40,
-      currency: 'Bs'
-    },
-    category: 'Accesorios'
-  },
-  {
-    id: '14',
-    urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTH-M660IM/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5544.jpg',
-    productSlug: 'XT-XTH-M660IM',
-    productName:
-      'Audifonos inalámbricos con micrófono | Edición Iron Man, XTH-M660IM //20U X CAJA',
-    price: {
-      amount: 210,
-      currency: 'Bs'
-    },
-    category: 'Audio'
-  },
-  {
-    id: '15',
-    urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTH-M660CA/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5545.jpg',
-    productSlug: 'XT-XTH-M660CA',
-    productName:
-      'Audifonos inalámbricos con micrófono | Edición Capitán América, XTH-M660CA',
-    price: {
-      amount: 220,
-      currency: 'Bs'
-    },
-    category: 'Audio'
-  },
-  {
-    id: '16',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/TL-UE330/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5953.jpg',
-    productSlug: 'TL-UE330',
-    productName: 'ADAPTADOR USB A ETHERNET////100U X CAJA',
-    price: {
-      amount: 80,
-      currency: 'Bs'
-    },
-    category: 'Accesorios'
-  },
-  {
-    id: '17',
-    urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTM-310GN/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/4524.jfif',
-    productSlug: 'XT-XTM-310GN',
-    productName: 'MOUSE OPTICO INALAMBRICO DE 4 BOTONES',
-    price: {
-      amount: 100,
-      currency: 'Bs'
-    },
-    category: 'Periféricos'
-  },
-  {
-    id: '18',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/KX-KNS-110B/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3328.jpg',
-    productSlug: 'KX-KNS-110B',
-    productName: 'BASE CON VENTILADOR PARA LAPTOPS ///// 6 u X caja',
-    price: {
-      amount: 140,
-      currency: 'Bs'
-    },
-    category: 'Accesorios'
-  },
-  {
-    id: '19',
-    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/KL-KNS-330/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5145.png',
-    productSlug: 'KL-KNS-330',
-    productName: 'Funda NeoShield | KNS-330',
-    price: {
-      amount: 60,
-      currency: 'Bs'
-    },
-    category: 'Accesorios'
-  },
-  {
-    id: '20',
-    urlProduct:
-      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTM-M340IM/',
-    productImage:
-      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5547.jpg',
-    productSlug: 'XT-XTM-M340IM',
-    productName: 'Mouse inalámbrico | Edición Iron Man, XTM-M340IM',
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3354.jpg',
+    slug: 'XT-XTM-R300',
+    name: 'Mouse Gaming con RGB | XT-XTM-R300',
     price: {
       amount: 150,
       currency: 'Bs'
     },
-    category: 'Periféricos'
+    category: 'Periféricos',
+    description:
+      'Lleva tu experiencia de juego al siguiente nivel con el mouse gaming XT-XTM-R300. Con iluminación RGB personalizable y un sensor preciso, te brindará la ventaja competitiva que necesitas.',
+    features: [
+      'Sensor óptico de alta precisión',
+      'Iluminación RGB personalizable',
+      'Botones programables',
+      'Cable trenzado resistente'
+    ]
+  },
+  {
+    id: '4',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTA-D100MK/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5543.jpg',
+    slug: 'XT-XTA-D100MK',
+    name: 'Alfombrilla para mouse | Edición Mickey Mouse, XTA-D100MK',
+    price: {
+      amount: 60,
+      currency: 'Bs'
+    },
+    category: 'Accesorios',
+    description:
+      'Agrega un toque de diversión a tu escritorio con la alfombrilla para mouse edición especial Mickey Mouse. Su superficie suave y base antideslizante garantizan precisión y comodidad en cada movimiento.',
+    features: [
+      'Superficie suave de baja fricción',
+      'Base de goma antideslizante',
+      'Tamaño ideal para cualquier espacio de trabajo',
+      'Diseño exclusivo de Mickey Mouse'
+    ]
+  },
+  {
+    id: '5',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTA-ML101MK/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5547.jpg',
+    slug: 'XT-XTA-ML101MK',
+    name: 'Alfombrilla gaming RGB | Edición Mickey Mouse, XTA-ML101MK',
+    price: {
+      amount: 160,
+      currency: 'Bs'
+    },
+    category: 'Accesorios',
+    description:
+      'Mejora tu experiencia de juego con la alfombrilla gaming RGB edición especial Mickey Mouse. Diseñada para jugadores, ofrece una superficie de precisión y una iluminación RGB vibrante para complementar tu setup.',
+    features: [
+      'Iluminación RGB dinámica',
+      'Superficie microtexturizada para mayor precisión',
+      'Base antideslizante',
+      'Edición especial Mickey Mouse'
+    ]
+  },
+  {
+    id: '6',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTA-D200MK/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5546.jpg',
+    slug: 'XT-XTA-D200MK',
+    name: 'Alfombrilla gaming XXL | Edición Mickey Mouse, XTA-D200MK',
+    price: {
+      amount: 200,
+      currency: 'Bs'
+    },
+    category: 'Accesorios',
+    description:
+      'Con la alfombrilla gaming XXL edición especial Mickey Mouse, tendrás todo el espacio necesario para tu teclado y mouse. Su diseño resistente y base antideslizante la hacen ideal para largas sesiones de juego.',
+    features: [
+      'Superficie extra grande para teclado y mouse',
+      'Base de goma antideslizante',
+      'Resistente al agua y fácil de limpiar',
+      'Edición especial Mickey Mouse'
+    ]
+  },
+  {
+    id: '7',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTK-MX550/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3234.jpg',
+    slug: 'XT-XTK-MX550',
+    name: 'TECLADO MECÁNICO RGB | Switches Azul',
+    price: {
+      amount: 300,
+      currency: 'Bs'
+    },
+    category: 'Periféricos',
+    description:
+      'El teclado mecánico XT-XTK-MX550 ofrece una experiencia de escritura rápida y precisa con switches mecánicos azules. Perfecto para gamers y profesionales que buscan durabilidad y estilo.',
+    features: [
+      'Switches mecánicos azul para mayor respuesta',
+      'Iluminación RGB completamente personalizable',
+      'Diseño ergonómico y duradero',
+      'Teclas programables'
+    ]
+  },
+  {
+    id: '8',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTA-ML105MK/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5548.jpg',
+    slug: 'XT-XTA-ML105MK',
+    name: 'Alfombrilla gaming RGB | Edición Mickey Mouse, XTA-ML105MK',
+    price: {
+      amount: 160,
+      currency: 'Bs'
+    },
+    category: 'Accesorios',
+    description:
+      'Personaliza tu setup con la alfombrilla gaming RGB edición especial Mickey Mouse. Con una superficie precisa y una iluminación vibrante, es el accesorio perfecto para todo gamer.',
+    features: [
+      'Iluminación RGB personalizable',
+      'Superficie microtexturizada para mayor precisión',
+      'Base antideslizante',
+      'Edición especial Mickey Mouse'
+    ]
+  },
+  {
+    id: '9',
+    urlProduct: 'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTM-R450/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3365.jpg',
+    slug: 'XT-XTM-R450',
+    name: 'MOUSE GAMING INALÁMBRICO | 5 BOTONES',
+    price: {
+      amount: 180,
+      currency: 'Bs'
+    },
+    category: 'Periféricos',
+    description:
+      'El mouse gaming inalámbrico XT-XTM-R450 te ofrece la libertad de movimiento que necesitas para largas sesiones de juego. Con un diseño ergonómico y botones programables, es perfecto para cualquier tipo de juego.',
+    features: [
+      'Tecnología inalámbrica de baja latencia',
+      'Resolución ajustable de hasta 4000 DPI',
+      'Iluminación RGB dinámica',
+      '5 botones programables'
+    ]
+  },
+  {
+    id: '10',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTA-D105AV/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5544.jpg',
+    slug: 'XT-XTA-D105AV',
+    name: 'Alfombrilla para mouse | Edición Marvel, XTA-D105MK',
+    price: {
+      amount: 55,
+      currency: 'Bs'
+    },
+    category: 'Accesorios',
+    description:
+      'Agrega un toque de acción a tu escritorio con la alfombrilla para mouse edición Marvel. Diseñada para fans del universo Marvel, ofrece una superficie suave y una base antideslizante.',
+    features: [
+      'Superficie de baja fricción para movimientos precisos',
+      'Base de goma antideslizante',
+      'Diseño compacto',
+      'Edición especial Marvel'
+    ]
+  },
+  {
+    id: '11',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTA-D110AV/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/5549.jpg',
+    slug: 'XT-XTA-D110AV',
+    name: 'Alfombrilla gaming RGB | Edición Marvel, XTA-D110MK',
+    price: {
+      amount: 170,
+      currency: 'Bs'
+    },
+    category: 'Accesorios',
+    description:
+      'Destaca tu espacio de juego con la alfombrilla gaming RGB edición especial Marvel. Ofrece una superficie precisa para movimientos rápidos y una iluminación RGB vibrante para complementar tu setup.',
+    features: [
+      'Iluminación RGB dinámica',
+      'Superficie microtexturizada',
+      'Base antideslizante',
+      'Edición especial Marvel'
+    ]
+  },
+  {
+    id: '12',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTL-AR200/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3258.jpg',
+    slug: 'XT-XTL-AR200',
+    name: 'Lámpara de escritorio LED | Regulable',
+    price: {
+      amount: 90,
+      currency: 'Bs'
+    },
+    category: 'Iluminación',
+    description:
+      'Ilumina tu espacio de trabajo con la lámpara de escritorio LED regulable. Su luz suave y ajustable es ideal para leer, estudiar o trabajar, ofreciendo un diseño moderno y funcional.',
+    features: [
+      'Luz LED regulable en brillo',
+      'Diseño moderno y elegante',
+      'Bajo consumo de energía',
+      'Cabezal ajustable para mayor flexibilidad'
+    ]
+  },
+  {
+    id: '13',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTP-BT400/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3103.jpg',
+    slug: 'XT-XTP-BT400',
+    name: 'Teclado inalámbrico Bluetooth | XT-XTP-BT400',
+    price: {
+      amount: 220,
+      currency: 'Bs'
+    },
+    category: 'Periféricos',
+    description:
+      'El teclado inalámbrico Bluetooth XT-XTP-BT400 te brinda comodidad y libertad de movimiento. Ideal para trabajar desde cualquier lugar sin los enredos de cables.',
+    features: [
+      'Conectividad Bluetooth de largo alcance',
+      'Teclas silenciosas y cómodas',
+      'Batería de larga duración',
+      'Diseño compacto y ligero'
+    ]
+  },
+  {
+    id: '14',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTP-WB100/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3201.jpg',
+    slug: 'XT-XTP-WB100',
+    name: 'Teclado mecánico inalámbrico | XT-XTP-WB100',
+    price: {
+      amount: 310,
+      currency: 'Bs'
+    },
+    category: 'Periféricos',
+    description:
+      'El teclado mecánico inalámbrico XT-XTP-WB100 combina la durabilidad de los switches mecánicos con la libertad de la conectividad inalámbrica. Ideal para gaming o productividad.',
+    features: [
+      'Switches mecánicos de alta respuesta',
+      'Conectividad inalámbrica estable',
+      'Iluminación RGB personalizable',
+      'Batería recargable de larga duración'
+    ]
+  },
+  {
+    id: '15',
+    urlProduct:
+      'https://sisegusa.com.bo/Catalogo/DetalleProducto/XT-XTP-KM200/',
+    productImage:
+      'https://sisegusa.com.bo/media/root/sitio-web/media/product/image/3122.jpg',
+    slug: 'XT-XTP-KM200',
+    name: 'Kit de teclado y mouse | XT-XTP-KM200',
+    price: {
+      amount: 180,
+      currency: 'Bs'
+    },
+    category: 'Periféricos',
+    description:
+      'El kit de teclado y mouse XT-XTP-KM200 es perfecto para quienes buscan una solución simple y funcional. Con un diseño ergonómico y conectividad inalámbrica, te permite trabajar cómodamente desde cualquier lugar.',
+    features: [
+      'Conectividad inalámbrica 2.4 GHz',
+      'Teclado de tamaño completo con teclas silenciosas',
+      'Mouse ergonómico con alta precisión',
+      'Diseño compacto y ligero'
+    ]
   }
 ]

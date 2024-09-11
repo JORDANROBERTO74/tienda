@@ -12,3 +12,14 @@ export const CartListProvider = ({ children }: any) => {
     </CartList.Provider>
   )
 }
+
+export const SearchValue = React.createContext<any>({})
+export const SearchValueProvider = ({ children }: any) => {
+  const [value, setValue] = React.useState('')
+
+  return (
+    <SearchValue.Provider value={{ value, setValue }}>
+      {children}
+    </SearchValue.Provider>
+  )
+}
