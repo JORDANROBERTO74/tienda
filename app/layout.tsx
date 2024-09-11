@@ -8,6 +8,8 @@ import { CartListProvider, SearchValueProvider } from '@/components/context'
 import MainContent from '@/components/navigation/MainContent'
 import { Toaster } from '@/components/ui/toaster'
 import Footer from '@/components/footer'
+import { Suspense } from 'react'
+import { Spinner } from '@/components/ui/spinner'
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -51,14 +53,22 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SearchValueProvider>
-            <CartListProvider>
-              <Header />
-              <MainContent>{children}</MainContent>
-              <Footer />
-              <Toaster />
-            </CartListProvider>
-          </SearchValueProvider>
+          <Suspense
+            fallback={
+              <div className="h-full flex justify-center items-center">
+                <Spinner />
+              </div>
+            }
+          >
+            <SearchValueProvider>
+              <CartListProvider>
+                <Header />
+                <MainContent>{children}</MainContent>
+                <Footer />
+                <Toaster />
+              </CartListProvider>
+            </SearchValueProvider>
+          </Suspense>
         </ThemeProvider>
       </body>
     </html>
