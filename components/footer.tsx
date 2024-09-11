@@ -1,39 +1,38 @@
 import React from 'react'
-import Link from 'next/link'
-import { SiDiscord, SiGithub, SiTwitter } from 'react-icons/si'
-import { Button } from './ui/button'
+import { storeData } from '@/components/fakeData/storeData'
 
 const Footer: React.FC = () => {
   return (
-    <footer className="w-fit p-1 md:p-2 fixed bottom-0 right-0">
-      <div className="flex justify-end">
-        <Button
-          variant={'ghost'}
-          size={'icon'}
-          className="text-muted-foreground/50"
-        >
-          <Link href="https://discord.gg/zRxaseCuGq" target="_blank">
-            <SiDiscord size={18} />
-          </Link>
-        </Button>
-        <Button
-          variant={'ghost'}
-          size={'icon'}
-          className="text-muted-foreground/50"
-        >
-          <Link href="https://twitter.com/miiura" target="_blank">
-            <SiTwitter size={18} />
-          </Link>
-        </Button>
-        <Button
-          variant={'ghost'}
-          size={'icon'}
-          className="text-muted-foreground/50"
-        >
-          <Link href="https://git.new/morphic" target="_blank">
-            <SiGithub size={18} />
-          </Link>
-        </Button>
+    <footer className="bg-muted mt-12">
+      <div className="container mx-auto px-4 pt-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Acerca de Nosotros</h3>
+            <p className="text-muted-foreground">
+              {storeData?.aboutUs?.description2}
+            </p>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Enlaces Rápidos</h3>
+            <div className="text-muted-foreground">
+              <p>FAQ</p>
+              <p>Shipping</p>
+              <p>Returns</p>
+            </div>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Contáctanos</h3>
+            <p className="text-muted-foreground">
+              {`Email: ${storeData?.contact?.email}`}
+            </p>
+            <p className="text-muted-foreground">
+              {`Teléfono: ${storeData?.contact?.phone}`}
+            </p>
+          </div>
+        </div>
+        <div className="mt-8 pt-4 pb-4 border-t text-center text-muted-foreground">
+          © 2024 FashionStore. All rights reserved.
+        </div>
       </div>
     </footer>
   )

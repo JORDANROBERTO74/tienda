@@ -4,9 +4,10 @@ import './globals.css'
 import { cn } from '@/lib/utils'
 import { ThemeProvider } from '@/components/theme-provider'
 import Header from '@/components/navigation/header/index'
-import { CartListProvider } from '@/components/context'
+import { CartListProvider, SearchValueProvider } from '@/components/context'
 import MainContent from '@/components/navigation/MainContent'
 import { Toaster } from '@/components/ui/toaster'
+import Footer from '@/components/footer'
 
 const fontSans = FontSans({
   subsets: ['latin'],
@@ -50,13 +51,14 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <CartListProvider>
-            {/* <SideMenu /> */}
-            <Header />
-            <MainContent>{children}</MainContent>
-            {/* <BottomMenu /> */}
-            <Toaster />
-          </CartListProvider>
+          <SearchValueProvider>
+            <CartListProvider>
+              <Header />
+              <MainContent>{children}</MainContent>
+              <Footer />
+              <Toaster />
+            </CartListProvider>
+          </SearchValueProvider>
         </ThemeProvider>
       </body>
     </html>

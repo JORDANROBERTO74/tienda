@@ -7,32 +7,12 @@ interface PropsType {
 }
 
 const MainContent = ({ children }: PropsType) => {
-  const [isMobile, setIsMobile] = React.useState(false)
-
-  React.useEffect(() => {
-    if (typeof window !== 'undefined') {
-      setIsMobile(window.innerWidth <= 767)
-    }
-  }, [])
-
   return (
-    <main
-      style={{
-        height: '100%',
-        display: 'block'
-      }}
-    >
-      <div
-        style={{
-          height: '100%',
-          display: 'flex',
-          justifyContent: 'center',
-          flex: 1
-        }}
-      >
+    <div className="flex flex-col min-h-screen">
+      <main className="flex-grow container mx-auto px-8 pt-24 pb-4">
         {children}
-      </div>
-    </main>
+      </main>
+    </div>
   )
 }
 export default MainContent
