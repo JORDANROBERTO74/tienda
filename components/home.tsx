@@ -42,11 +42,15 @@ export default function ProductCatalog() {
               onClick={() => router.push(`${PRODUCT}?id=${product?.id}`)}
             >
               {!!product?.productImage ? (
-                <Image
-                  src={product?.productImage}
-                  alt={`product-${index}`}
-                  className="h-48 object-cover"
-                />
+                <div>
+                  <Image
+                    src={product?.productImage}
+                    alt={`product-${index}`}
+                    className="h-48 object-cover"
+                    width={200}
+                    height={200}
+                  />
+                </div>
               ) : (
                 <div className="flex">
                   <EmptyImage className="h-48" />

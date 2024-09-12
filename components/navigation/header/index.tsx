@@ -170,7 +170,7 @@ export const Header: React.FC = () => {
             >
               <CartIcon />
             </Button>
-            <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-white bg-primary rounded-full transform -translate-y-1/2">
+            <span className="absolute top-0 right-0 inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none bg-secondary rounded-full transform -translate-y-1/2">
               {productCartLength}
             </span>
           </div>
@@ -305,14 +305,16 @@ export const Header: React.FC = () => {
               </PopoverContent>
             </Popover>
           ) : (
-            <Button
-              onClick={() => router.push(`/${CART}`)}
-              variant={'ghost'}
-              size={'icon'}
-              type="button"
-            >
-              <CartIcon />
-            </Button>
+            <div className="hidden md:flex">
+              <Button
+                onClick={() => router.push(`/${CART}`)}
+                variant={'ghost'}
+                size={'icon'}
+                type="button"
+              >
+                <CartIcon />
+              </Button>
+            </div>
           )}
           <Sheet open={isSheetOpen} onOpenChange={setIsSheetOpen}>
             <SheetTrigger asChild>

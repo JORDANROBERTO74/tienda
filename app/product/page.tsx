@@ -42,13 +42,17 @@ export default function Component() {
               <div className="flex flex-col md:flex-row gap-6">
                 <div className="flex-1">
                   {!!productData?.productImage ? (
-                    <Image
-                      src={productData?.productImage}
-                      alt={`product-${productData?.id}`}
-                      className="h-[300px] object-cover"
-                    />
+                    <div>
+                      <Image
+                        src={productData?.productImage}
+                        alt={`product-${productData?.id}`}
+                        className="h-[200px] md:h-[300px] object-cover"
+                        width={363}
+                        height={100}
+                      />
+                    </div>
                   ) : (
-                    <EmptyImage className="h-[300px] w-[300px] object-cover" />
+                    <EmptyImage className="h-[200px] md:h-[300px] w-[300px] object-cover" />
                   )}
                 </div>
                 <div className="flex-1 space-y-4">

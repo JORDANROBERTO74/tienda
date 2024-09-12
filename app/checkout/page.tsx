@@ -96,6 +96,8 @@ Orden%20de%20Compra%0A%0A-----%0A%0A${productDetails}%0A%0A-----%0A%0AProductos%
                             src={item?.productImage}
                             alt={`product-${index}`}
                             className="h-16 md:h-24 w-16 md:w-24 object-cover"
+                            width={100}
+                            height={100}
                           />
                         ) : (
                           <div className="flex w-16 md:w-24 h-16 md:h-24 items-center">
