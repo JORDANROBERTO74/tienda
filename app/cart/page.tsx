@@ -43,11 +43,15 @@ export default function Component() {
                 onClick={() => router.push(`${PRODUCT}?id=${item?.id}`)}
               >
                 {!!item?.productImage ? (
-                  <Image
-                    src={item?.productImage}
-                    alt={`product-${index}`}
-                    className="h-48 object-cover"
-                  />
+                  <div>
+                    <Image
+                      src={item?.productImage}
+                      alt={`product-${index}`}
+                      className="h-48 object-cover"
+                      width={200}
+                      height={200}
+                    />
+                  </div>
                 ) : (
                   <div className="flex">
                     <EmptyImage className="h-48" />
